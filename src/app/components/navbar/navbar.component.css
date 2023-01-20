@@ -1,0 +1,10 @@
+@import url("../../../styles/colors.css");
+
+nav {
+	background-color: var(--fourth-color);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 2.5vh;
+	padding-bottom: 2.5vh;
+}

@@ -1,0 +1,47 @@
+@import url("./colors.css");
+
+.btn-primary {
+	cursor: pointer;
+	font-weight: 700;
+	padding: 10px 12px;
+	margin: 2px;
+	background-color: var(--primary-color);
+	border: solid 2px var(--third-color);
+	border-radius: 10px;
+	transition: all .3s ease-out;
+}
+
+.btn-primary:hover {
+	background-color: var(--third-color);
+	border-color: var(--primary-color);
+	color: var(--primary-color);
+}
+
+.btn-primary:active {
+	background-color: var(--primary-color);
+	border-color: var(--third-color);
+	color: var(--secondary-color);
+}
+
+.btn-secondary {
+	cursor: pointer;
+	font-weight: 700;
+	padding: 10px 12px;
+	margin: 2px;
+	background-color: var(--third-color);
+	border: solid 2px var(--secondary-color);
+	border-radius: 10px;
+	transition: all .3s ease-out;
+}
+
+.btn-secondary:hover {
+	background-color: var(--secondary-color);
+	border-color: var(--third-color);
+	color: var(--third-color);
+}
+
+.btn-secondary:active {
+	background-color: var(--third-color);
+	border-color: var(--secondary-color);
+	color: var(--fourth-color);
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+
+app-root {
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: var(--primary-color);
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+h4 {
+	font-size: 1.2rem;
+}
+
+main {
+	display: flex;
+	justify-content: space-between;
+}
+
+app-footer {
+	margin-top: auto;
+
+}
+
+.global-padding {
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+.text-color-secondary {
+	color: var(--secondary-color)
+}
+
+.text-color-fourth {
+	color: var(--fourth-color)
+}
